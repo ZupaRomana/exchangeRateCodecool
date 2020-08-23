@@ -54,6 +54,10 @@ function generateChart(response) {
                 ],
                 borderWidth: 1
             }]
+        },
+        options: {
+            responsive: false,
+            maintainAspectRatio: false
         }
     });
 }
